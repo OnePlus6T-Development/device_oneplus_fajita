@@ -39,3 +39,16 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus6T \
     SystemDevice=OnePlus6T \
     SystemName=OnePlus6T
+
+# RisingOS Config
+RISING_MAINTAINER="uwugl"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Qualcomm Snapdragon 845" \
+    RisingMaintainer="uwugl"
+TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
+WITH_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
+
