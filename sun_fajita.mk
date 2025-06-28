@@ -22,9 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/fajita/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/sun/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_fajita
+PRODUCT_NAME := sun_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -33,8 +33,6 @@ PRODUCT_MODEL := ONEPLUS A6013
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="OnePlus6T-user 11   release-keys" \
-    BuildFingerprint=OnePlus/OnePlus6T/OnePlus6T:11/RKQ1.201217.002/2111252327:user/release-keys \
     DeviceName=OnePlus6T \
     DeviceProduct=OnePlus6T \
     SystemDevice=OnePlus6T \
