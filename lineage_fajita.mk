@@ -39,3 +39,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus6T \
     SystemDevice=OnePlus6T \
     SystemName=OnePlus6T
+
+# Inherit from AviumUI configs.
+-include device/oneplus/fajita/avium_fajita.mk
