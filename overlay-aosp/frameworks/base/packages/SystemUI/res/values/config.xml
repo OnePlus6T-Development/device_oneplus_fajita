@@ -23,4 +23,6 @@
     <!-- Color of the UDFPS Pressed view -->
     <color name="config_udfpsColor">#00ff00</color>
 
+    <!-- Bottom margin size when fingerprint in display is active -->
+    <dimen name="keyguard_indication_margin_bottom">469px</dimen>
 </resources>
